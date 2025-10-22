@@ -37,7 +37,7 @@ Example result (top 10):
 ```
 
 ### 🔹 Ranked Search (Weighted Formula)
-`GET /movies/search?query=action`
+`GET /movies/search/ranked?query=action`
 
 Ranks results by:
 ```
