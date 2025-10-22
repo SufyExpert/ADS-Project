@@ -85,7 +85,7 @@ def search_movies_hybrid():
     res.sort(reverse=True, key=lambda x: x[0])
     return jsonify(fix_id([m for _, m in res[:10]]))
 
-@app.route('/movies/search')
+@app.route('/movies/search/ranked')
 def search_movies_ranked():
     q = request.args.get('query')
     if not q:
@@ -113,3 +113,4 @@ def search_movies_ranked():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
+
