@@ -106,7 +106,8 @@ of a document in the movies collection.
 *(You can represent relationships using ER diagrams or arrows between
 collections.)*
 
-![Uploading Screenshot 2025-10-21 233236.png…]()
+<img width="925" height="660" alt="Screenshot 2025-10-21 233236" src="https://github.com/user-attachments/assets/a51cb772-4d32-4ce9-875d-72bf446fbcd5" />
+
 
 
 ------------------------------------------------------------------------
