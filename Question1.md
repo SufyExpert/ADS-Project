@@ -106,6 +106,9 @@ of a document in the movies collection.
 *(You can represent relationships using ER diagrams or arrows between
 collections.)*
 
+![Uploading Screenshot 2025-10-21 233236.png…]()
+
+
 ------------------------------------------------------------------------
 
 ## 2) Propose Indexes for Multi-Field Search
