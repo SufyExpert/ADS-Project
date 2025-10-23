@@ -13,6 +13,15 @@ db = client.movie_platform
 
 db.movies.create_index([("title", TEXT), ("director", TEXT), ("cast.actor", TEXT)])
 
+db.movies.createIndex({
+  "rating": -1,
+  "release_year": -1
+})
+
+db.watch_history.createIndex({
+  "user_id": 1
+})
+
 def fix_id(movies):
     return [{**m, "_id": str(m["_id"])} for m in movies]
 
@@ -113,4 +122,5 @@ def search_movies_ranked():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
+
 
